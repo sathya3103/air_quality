@@ -6,7 +6,7 @@ A **Streamlit web app** is included to visualize pollutant levels, AQI trends, a
 ---
 
 ## 📂 Project Structure
-
+```bash
 AIR_QUALITY/
 │── data/
 │ └── air_quality.csv # Dataset (pollutant levels + AQI)
@@ -25,7 +25,7 @@ AIR_QUALITY/
 │── model_train.py # Script to train and save AQI model
 │── requirements.txt # Dependencies
 │── README.md # Project documentation
-
+```
 ---
 
 ## ⚙️ Installation
