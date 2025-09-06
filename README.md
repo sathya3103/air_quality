@@ -33,7 +33,7 @@ AIR_QUALITY/
 Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/your-username/air_quality.git
+git clone https://github.com/sathya3103/air_quality.git
 cd air_quality
 pip install -r requirements.txt
 ```
@@ -56,6 +56,7 @@ Example Output:
 💾 Model saved to model/aqi_model.pkl
 🎉 Training complete!
 ```
+![alt text](images/screencapture-localhost-8501-2025-09-06-14_07_12.png)
 ---
 
 ## 💻 Running the Web App
