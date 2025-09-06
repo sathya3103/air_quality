@@ -1,0 +1,7 @@
+# Ignore large data and model files
+model/
+*.pkl
+data/full_*.csv
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
