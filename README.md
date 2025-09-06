@@ -36,13 +36,18 @@ Clone the repo and install dependencies:
 git clone https://github.com/your-username/air_quality.git
 cd air_quality
 pip install -r requirements.txt
+```
+---
 
-📊 Training the Model
+## 📊 Training the Model
 
 Run the training script:
+```bash
 python model_train.py
+```
 
 Example Output:
+```bash
 ✅ Using local dataset: data/air_quality.csv
 🔧 Cleaning dataset...
 🚀 Training RandomForestRegressor...
@@ -50,10 +55,13 @@ Example Output:
 📊 MAE: 23.30, R²: 0.88
 💾 Model saved to model/aqi_model.pkl
 🎉 Training complete!
+```
+---
 
-💻 Running the Web App
+## 💻 Running the Web App
 
 Launch the Streamlit app:
+```bash
 python -m streamlit run app.py
 
 You’ll see something like:
@@ -61,10 +69,12 @@ You’ll see something like:
 Local URL: http://localhost:8501
 Network URL: http://10.97.24.12:8501
 
-
 Open the local URL in your browser.
+```
 
-🖼️ Features of the Streamlit App
+---
+
+## 🖼️ Features of the Streamlit App
 
 ✅ Select a city and view predicted AQI
 
@@ -75,18 +85,16 @@ Open the local URL in your browser.
 ✅ AQI Category Classification
 
 Good 🟢
-
 Satisfactory 🟡
-
 Moderate 🟠
-
 Poor 🔴
-
 Very Poor 🟣
-
 Severe ⚫
 
-🧪 Technologies Used
+---
+
+## 🧪 Technologies Used
+```bash
 
 Python 3.9+
 
@@ -99,9 +107,9 @@ Streamlit – Interactive web app
 Matplotlib / Plotly – Visualization
 
 Joblib – Model serialization
-
+```
 ---
-🙌 Author
+## 🙌 Author
 
 Developed by E.Sathyanesar as part of a Machine Learning project.
 Feel free to fork, contribute, and improve! 🚀
