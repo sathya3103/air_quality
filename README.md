@@ -20,7 +20,7 @@ AIR_QUALITY/
 │ ├── 03_model_training.ipynb
 │ ├── 04_evaluation.ipynb
 │ └── 05_deployment.ipynb
-| └── final_submission.ipynb
+│ └── final_submission.ipynb
 │
 │── app.py # Streamlit app for AQI prediction & visualization
 │── model_train.py # Script to train and save AQI model
